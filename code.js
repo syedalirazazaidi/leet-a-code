@@ -28,10 +28,18 @@
 // console.log([...arr1,...arr1])
 
 // javascript function that reverse a number
-const revnumber=1234;
- const numb=revnumber.toString().split('').reverse().join('')
- console.log(typeof +numb)
+// const revnumber=1234;
+//  const numb=revnumber.toString().split('').reverse().join('')
+//  console.log(typeof +numb)
 
+// palindrome or not
 
+const palin = "aliraza";
 
-
+const len = palin.length;
+for (let i = 0; i < len / 2; i++) {
+  if (palin[0] !== palin[palin.length - 1 - i]) {
+   console.log(  'It is not a palindrome')
+  } 
+}
+console.log( 'It is a palindrome')
