@@ -19,8 +19,19 @@
 // console.log(arr)
 
 // How to check the number is an integer
-const numb= 10.5;
-console.log(typeof numb)
-console.log(Number.isInteger(numb))
+// const numb= 10.5;
+// console.log(typeof numb)
+// console.log(Number.isInteger(numb))
+
+// do duplicate ana array
+// const arr1=[1,2,3,4,5]
+// console.log([...arr1,...arr1])
+
+// javascript function that reverse a number
+const revnumber=1234;
+ const numb=revnumber.toString().split('').reverse().join('')
+ console.log(typeof +numb)
+
+
 
 
