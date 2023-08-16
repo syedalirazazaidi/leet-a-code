@@ -34,12 +34,38 @@
 
 // palindrome or not
 
-const palin = "aliraza";
+// const palin = "aliraza";
 
-const len = palin.length;
-for (let i = 0; i < len / 2; i++) {
-  if (palin[0] !== palin[palin.length - 1 - i]) {
-   console.log(  'It is not a palindrome')
-  } 
-}
-console.log( 'It is a palindrome')
+// const len = palin.length;
+// for (let i = 0; i < len / 2; i++) {
+//   if (palin[0] !== palin[palin.length - 1 - i]) {
+//    console.log(  'It is not a palindrome')
+//   }
+// }
+// console.log( 'It is a palindrome')
+
+// count the number of occurance in an array
+// const arr = ['apple','orange','mango','apple'];
+// const arr='aliraza'
+// const count = {};
+// for (const element of arr) {
+//     if (count[element]) {
+//       count[element] += 1;
+//     } else {
+//       count[element] = 1;
+//     }
+//   }
+// // console.log(count,"COUNT")
+// var obj={a:1}
+// console.log(obj.hasOwnProperty('a'))
+
+// const arr=[3,4,10,1,2,10]
+// const newarr={...arr}
+// console.log(JSON.parse(JSON.stringify(newarr))
+// )
+// loop array and add all mmber of it
+const arr=[1,2]
+const addall=arr.reduce((pre,curr,i,arr)=>{
+    return pre+curr
+},0)
+console.log(addall)
