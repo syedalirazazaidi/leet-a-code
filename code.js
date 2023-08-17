@@ -82,3 +82,8 @@
 //   },0
 // );
 // console.log(Number(newarr))
+
+// const arr=[4,5,6,7,20]
+// const newarr=(arr.splice(1,2,100))
+// console.log(newarr)
+// console.log(arr)
