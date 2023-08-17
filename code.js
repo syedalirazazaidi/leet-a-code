@@ -63,9 +63,22 @@
 // const newarr={...arr}
 // console.log(JSON.parse(JSON.stringify(newarr))
 // )
-// loop array and add all mmber of it
-const arr=[1,2]
-const addall=arr.reduce((pre,curr,i,arr)=>{
-    return pre+curr
-},0)
-console.log(addall)
+// // loop array and add all mmber of it
+// const arr=[1,2]
+// const addall=arr.reduce((pre,curr,i,arr)=>{
+//     return pre+curr
+// },0)
+// console.log(addall)
+
+// const arr = [3, 4, "asds", "wqewe", 10];
+// const newarr=arr.filter((elem)=>Number.isInteger(elem))
+// console.log(newarr)
+
+// const newarr = arr.reduce(
+//   (pre, curr, i, arr) => {
+//     if (typeof pre === "number") {
+//     return pre=pre+curr
+//     }
+//   },0
+// );
+// console.log(Number(newarr))
